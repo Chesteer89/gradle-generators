@@ -9,7 +9,7 @@ Steps:
 apply from: 'svgGenerator.gradle'
 generateIcons {
     from file(project.rootDir.path + '/svg')
-    to file(project.rootDir.path + '/main/src/res')
+    to file(project.rootDir.path + '/src/main/res')
 }
 ```
 
