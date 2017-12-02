@@ -13,10 +13,10 @@ generateIcons {
 }
 ```
 
-SVG file names should follow one on 2 patterns:
+SVG file names should follow one on 2 patterns (sizes are in dip):
 
-```name_{size_in_dp_for_xhdpi}.svg``` for sqaure drawables
+```name_{size_in_dp_for_mdpi}.svg``` for sqaure drawables
 
-```name_{width_in_dp_for_xhdpi}_{height_dp_for_xhdpi}``` for rectangular drawables
+```name_{width_in_dp_for_mdpi}_{height_dp_for_mdpi}``` for rectangular drawables
 
 Examples: ```icon_check_48.svg``` or ```icon_loading_48_64.svg```
