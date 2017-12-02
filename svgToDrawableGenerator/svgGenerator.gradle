@@ -8,8 +8,8 @@ class InkscapeSVGToDrawablesTask extends DefaultTask {
 
     def targets = [
              ["drawable-ldpi", 0.75],
-             ["drawable-mdpi", 1.0
-             ["drawable-hdpi", 1.5,
+             ["drawable-mdpi", 1.0],
+             ["drawable-hdpi", 1.5],
              ["drawable-xhdpi", 2.0],
              ["drawable-xxhdpi", 3.0],
              ["drawable-xxxhdpi", 4.0]
